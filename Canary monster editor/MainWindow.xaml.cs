@@ -279,7 +279,7 @@ namespace Canary_monster_editor
 
                             uint parsedUint = 0;
                             uint.TryParse(ShowLookType_textbox.Text, out parsedUint);
-                            monster.AppearanceType.Outfittype = 0;
+                            monster.AppearanceType.Outfittype = parsedUint;
                             parsedUint = 0;
 
                             uint.TryParse(ShowAddon_textbox.Text, out parsedUint);
